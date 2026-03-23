@@ -1,5 +1,9 @@
 # FlowCore API
-
+[![Python](https://img.shields.io/badge/Python-3.14-blue)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.135-green)](https://fastapi.tiangolo.com)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)](https://mysql.com)
+[![JWT](https://img.shields.io/badge/JWT-Auth-red)](https://jwt.io)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.14-blue)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.135-green)](https://fastapi.tiangolo.com)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)](https://mysql.com)
