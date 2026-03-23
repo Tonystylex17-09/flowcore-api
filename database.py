@@ -6,13 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Configuración de MySQL (usa la contraseña que pusiste)
-MYSQL_USER = "root"
-MYSQL_PASSWORD = "admin123"
-MYSQL_HOST = "localhost"
-MYSQL_DB = "flowcore_db"
-
-DATABASE_URL = f"mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}/{MYSQL_DB}"
+DATABASE_URL = os.getenv("DATABASE_URL", "mysql+pymysql://root:admin123@localhost/flowcore_db")
 
 engine = create_engine(DATABASE_URL, echo=True)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
